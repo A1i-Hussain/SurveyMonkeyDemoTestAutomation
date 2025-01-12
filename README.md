@@ -26,7 +26,7 @@ Copy the below and past into `cypress.env.json`. Usually this would be inserted 
 
 > see cypress docs for further [info](https://docs.cypress.io/guides/guides/environment-variables#Option-2-cypressenvjson) on how to override / set env variables in CI
 
-## 4. start the Cypress App UP in ordee to run a test file
+## 4. start the Cypress App ui in order to run a test file
 
 ```
 npx cypress run
