@@ -29,10 +29,10 @@ Copy the below and past into `cypress.env.json`. Usually this would be inserted 
 ## 4. start the Cypress App ui in order to run a test file
 
 ```
-npx cypress run
+npx cypress open
 ```
 
-alternatively you can run all tests through the command line using the following scripts
+alternatively you can run all tests through the command line using the following scripts, scripts ending in "Ci" will run in headless mode
 
 ```
     npm run executeAllSmokeTests
