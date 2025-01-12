@@ -1,0 +1,63 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+Test*
+cypress.env.local.json
+/coverage
+cypress-coverage
+jest-coverage
+cypress/reports
+cypress/downloads
+cypress/integration
+cypress/videos
+cypress/screenshots
+cypress/snapshots/actual
+cypress/snapshots/diff
+junit.xml
+.nyc_output
+/reports
+environments/
+
+# production
+/build
+
+# ide
+.idea
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+tags
+
+# certificates
+*.conf
+*.crt
+*.key
+.cert
+.vscode/launch.json
+.nvmrc
+/.vs
+
+# End to End Tests
+dist/
+node_modules/
+obj/
+logs/
+*.log
+*.txt
+testresults/
+screenshots/
+package-lock.json
