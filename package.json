@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "executeAllSmokeTests": "npx cypress run --browser edge --headed --env grepTags=@Smoke",
+    "executeAllSmokeTestsCi": "npx cypress run --browser edge --env grepTags=@Smoke",
+    "executeAllRegressionTests": "npx cypress run --browser edge --headed --env grepTags=@Regression",
+    "executeAllRegressionTestsCi": "npx cypress run --browser edge --env grepTags=@Regression"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.17.0"
+    "@cypress/grep": "^4.1.0",
+    "cypress": "^13.17.0",
+    "eslint": "^9.18.0",
+    "prettier": "^3.4.2"
   }
 }
